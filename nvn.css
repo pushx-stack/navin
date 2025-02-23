@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family:cursive;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+    color: #000000;
+}
+
+/* Header & Navbar */
+header {
+    background: rgba(0, 162, 255, 0.8);
+    color: rgb(240, 233, 233);
+    padding: 60px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: inherit;
+    letter-spacing: 2px;
+}
+#image{
+    float: left;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 20;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0d0d0f;
+}
+
+/* Profile Container */
+.profile-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: rgba(218, 27, 27, 0.1);
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgba(153, 11, 11, 0.3);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+/* Circular Profile Picture */
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 6px solid #b9b7b0;
+    margin-bottom: 50px;
+    float: left;
+}
+
+
+
+/* Section Styling */
+.section {
+    padding: 25px;
+    text-align: left;
+}
+
+/* Card Design for Sections */
+.card {
+    background: rgb(247, 245, 245);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    background: rgb(244, 245, 245);
+   
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(255, 254, 254);
+}
+
+/* Footer */
+footer {
+    background: rgba(15, 212, 8, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+}
